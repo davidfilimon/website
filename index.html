@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filimon David</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="site.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Filimon David</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home" class="hero">
+            <h1>Welcome to my portofolio</h1>
+            <p>I'm a dedicated developer looking to improve people's lives and providing amazing services along with unforgettable experiences.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="poze/profil.jpg">
+                </div>
+                <div class="about-text">
+                    <p>Hello there! I'm a software developer from Constanta, Romania, that has experience with web and desktop applications, using innovative tools and instruments, in order to provide modern solutions to any problems that I face.</p>
+                    <p>My journey in programming started several years ago, at the age of 17, and since then I've been consistently learning and evolving in order to sharpen my problem-solving skills and improve my ability to envision solutions for real-life obstacles.</p>
+                </div>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend Technologies</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">HTML5</span>
+                        <span class="skill-item">CSS3</span>
+                        <span class="skill-item">JavaScript</span>
+                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item">PyQT</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Technologies</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">C#</span>
+                        <span class="skill-item">.NET</span>
+                        <span class="skill-item">Python</span>
+                        <span class="skill-item">MySQL</span>
+                        <span class="skill-item">SSMS</span>
+                        <span class="skill-item">MariaDB</span>
+                        <span class="skill-item">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <div class="skill-list">
+                        <span class="skill-item">Git</span>
+                        <span class="skill-item">Docker</span>
+                        <span class="skill-item">Linux</span>
+                        <span class="skill-item">Raspberry Pi</span>
+                        <span class="skill-item">Unity</span>
+                        <span class="skill-item">GoDot</span>
+                        <span class="skill-item">RestFUL API</span>
+                        <span class="skill-item">LaTeX</span>
+                        <span class="skill-item">C++</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="openModal('project1')">
+                    <div class="project-image">screenshot</div>
+                    <div class="project-content">
+                        <div class="project-title">TrackMyScore</div>
+                        <div class="project-description">A responsive .NET web application to track your board game stats, through the use of board game rooms and tournaments.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">.NET</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">RestFUL API</span>
+                            <span class="tech-tag">Gmail API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('project5')">
+                    <div class="project-image">screenshot</div>
+                    <div class="project-content">
+                        <div class="project-title">Face Recognition App</div>
+                        <div class="project-description">A modern Python app to showcase different methods of face recognition.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyQT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('project2')">
+                    <div class="project-image">Screenshot / demo</div>
+                    <div class="project-content">
+                        <div class="project-title">Country Path Finder</div>
+                        <div class="project-description">The implementation and comparison of informative and non-informative algorithms when trying to find the best route from one country to another.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('project3')">
+                    <div class="project-image">screenshot</div>
+                    <div class="project-content">
+                        <div class="project-title">Hotel Management App</div>
+                        <div class="project-description">A responsive weather application with beautiful visualizations.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('project4')">
+                    <div class="project-image">screenshot</div>
+                    <div class="project-content">
+                        <div class="project-title">Bezier and B-Spline Curves</div>
+                        <div class="project-description">A modern Python app to showcase the creation of bezier and b-spline curves for different kinds of polynoms.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyQT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('project6')">
+                    <div class="project-image">screenshot</div>
+                    <div class="project-content">
+                        <div class="project-title">Maze Game</div>
+                        <div class="project-description">My first game made in Unity during my first year of coding.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">Unity</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('project7')">
+                    <div class="project-image">screenshot</div>
+                    <div class="project-content">
+                        <div class="project-title">Blackjack</div>
+                        <div class="project-description">Simple Blackjack game with Java UI.</div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Details</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fa fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>filimon.david97@yahoo.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa fa-linkedin-square"></i>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/filimon-david-1477972a4/" style="color: inherit; text-decoration: none;">linkedin.com/in/filimon-david-1477972a4/</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="fa fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/davidfilimon" style="color: inherit; text-decoration: none;">github.com/davidfilimon</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- project modals -->
+    <div id="project1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project1')">&times;</span>
+            <h2>TrackMyScore</h2>
+            <div class="modal-image">Project Screenshot/Demo</div>
+            <p><strong>Description:</strong> A comprehensive board game tracker app. Some features include user authentication, user following, match history, secure account manager through mail and admin dashboard.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>User registration and authentication</li>
+                <li>User following</li>
+                <li>Tournament and room creation, along with its history</li>
+                <li>The ability to add your own games besides the official ones</li>
+                <li>Statistics for the played games and a respect point counter</li>
+                <li>Admin panel for app management</li>
+            </ul>
+            
+            <p><strong>Links:</strong></p>
+            <p><i class="fa fa-github"> <a href="https://github.com/davidfilimon/TrackMyScore" target="_blank" style="color:inherit; text-decoration: none;">GitHub Repository</a></i></p>
+        </div>
+    </div>
+
+    <div id="project2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project2')">&times;</span>
+            <h2>Country Path Finder</h2>
+            <div class="modal-image">Project Screenshot/Demo</div>
+            <p><strong>Description:</strong> The implementation and comparison of informative and non-informative algorithms when trying to find the best route from one country to another.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>The ability to choose between the algorithms</li>
+                <li>Additional information such as the used nodes, time of execution and path showcase</li>
+                <li>Implementation of A* Search and Breadth First Search algorithms</li>
+                <li>Accessible and simple UI</li>
+            </ul>
+            <p><strong>Links:</strong></p>
+            <p><i class="fa fa-github"> <a href="https://github.com/davidfilimon/country-path" target="_blank" style="color:inherit; text-decoration: none;">GitHub Repository</a></i></p>
+        </div>
+    </div>
+
+    <div id="project3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project3')">&times;</span>
+            <h2>Hotel Management App</h2>
+            <div class="modal-image">Project Screenshot/Demo</div>
+            <p><strong>Description:</strong> A responsive weather application that provides current weather conditions and forecasts with beautiful data visualizations.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Current weather conditions</li>
+                <li>5-day weather forecast</li>
+                <li>Interactive charts and graphs</li>
+                <li>Location-based weather data</li>
+                <li>Weather alerts and notifications</li>
+                <li>Responsive design for all devices</li>
+            </ul>
+            
+            
+            <p><strong>Links:</strong></p>
+            <p><i class="fa fa-github"> <a href="https://github.com/davidfilimon/country-path" target="_blank" style="color:inherit; text-decoration: none;">GitHub Repository</a></i></p>
+        </div>
+    </div>
+
+    <div id="project4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project4')">&times;</span>
+            <h2>B-Spline and Bezier Curves</h2>
+            <div class="modal-image">Project Screenshot/Demo</div>
+            <p><strong>Description:</strong> A modern, responsive portfolio website designed to showcase projects, skills, and professional experience.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Responsive design for all devices</li>
+                <li>Interactive project showcases</li>
+                <li>Skills and technology display</li>
+                <li>Contact form integration</li>
+                <li>Smooth animations and transitions</li>
+                <li>SEO optimized</li>
+            </ul>
+                    
+            <p><strong>Links:</strong></p>
+            <p><i class="fa fa-github"> <a href="https://github.com/davidfilimon/country-path" target="_blank" style="color:inherit; text-decoration: none;">GitHub Repository</a></i></p>
+        </div>
+    </div>
+
+    <div id="project6" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project4')">&times;</span>
+            <h2>Maze 2D</h2>
+            <div class="modal-image">Project Screenshot/Demo</div>
+            <p><strong>Description:</strong> A modern, responsive portfolio website designed to showcase projects, skills, and professional experience.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Responsive design for all devices</li>
+                <li>Interactive project showcases</li>
+                <li>Skills and technology display</li>
+                <li>Contact form integration</li>
+                <li>Smooth animations and transitions</li>
+                <li>SEO optimized</li>
+            </ul>
+            <p><strong>Links:</strong></p>
+            <p><i class="fa fa-github"> <a href="https://github.com/davidfilimon/country-path" target="_blank" style="color:inherit; text-decoration: none;">GitHub Repository</a></i></p>
+        </div>
+    </div>
+
+    <div id="project7" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project4')">&times;</span>
+            <h2>Blackjack</h2>
+            <div class="modal-image">Project Screenshot/Demo</div>
+            <p><strong>Description:</strong> A modern, responsive portfolio website designed to showcase projects, skills, and professional experience.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Responsive design for all devices</li>
+                <li>Interactive project showcases</li>
+                <li>Skills and technology display</li>
+                <li>Contact form integration</li>
+                <li>Smooth animations and transitions</li>
+                <li>SEO optimized</li>
+            </ul>            
+            <p><strong>Links:</strong></p>
+            <p><i class="fa fa-github"> <a href="https://github.com/davidfilimon/country-path" target="_blank" style="color:inherit; text-decoration: none;">GitHub Repository</a></i></p>
+        </div>
+    </div>
+
+    <div id="project5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('project5')">&times;</span>
+            <h2>Face Recognition App</h2>
+            <div class="modal-image">screenshot</div>
+            <p><strong>Description:</strong> A responsive weather application that provides current weather conditions and forecasts with beautiful data visualizations.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li>Current weather conditions</li>
+                <li>5-day weather forecast</li>
+                <li>Interactive charts and graphs</li>
+                <li>Location-based weather data</li>
+                <li>Weather alerts and notifications</li>
+                <li>Responsive design for all devices</li>
+            </ul>
+            
+            <p><strong>Technologies Used:</strong> JavaScript, Chart.js, OpenWeatherMap API, CSS3, HTML5</p>
+            
+            <p><strong>Links:</strong></p>
+            <p>🔗 <a href="#" target="_blank">Live Demo</a> | 💻 <a href="#" target="_blank">GitHub Repository</a></p>
+        </div>
+    </div>
+</body>
+</html>
