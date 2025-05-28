@@ -10,6 +10,10 @@
     --header-scroll-bg: rgba(0, 0, 0, 0.98);
 }
 
+.education-section{
+    padding-bottom: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -639,6 +643,43 @@ main {
         margin-right: auto;
         max-width: 400px;
         padding: 1.8rem;
+    }
+
+    .education-card {
+        background: var(--card-bg);
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        padding: 2.5rem;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .education-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .education-card h3 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 1.8rem;
+        color: var(--text-light);
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+    }
+
+    .education-card p {
+        font-size: 1rem;
+        color: var(--text-muted);
+        margin-bottom: 0.4rem;
+    }
+
+    .education-card p:last-child {
+        margin-bottom: 0;
+        color: var(--accent-color);
+        font-weight: 500;
     }
 
     .modal-content {

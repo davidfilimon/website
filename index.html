@@ -23,7 +23,7 @@
 
     <main class="container">
         <section id="home" class="hero">
-            <h1>Welcome to my portofolio</h1>
+            <h1>Welcome to my portfolio</h1>
             <p>I'm a dedicated developer looking to improve people's lives and providing amazing services along with unforgettable experiences.</p>
             <a href="#projects" class="cta-button">View My Work</a>
         </section>
@@ -32,52 +32,67 @@
             <h2>About Me</h2>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="poze/profil.jpg">
+                    <img src="poze/profil.jpg" alt="Profile picture of Filimon David">
                 </div>
                 <div class="about-text">
                     <p>Hello there! I'm a software developer from Constanta, Romania, that has experience with web and desktop applications, using innovative tools and instruments, in order to provide modern solutions to any problems that I face.</p>
                     <p>My journey in programming started several years ago, at the age of 17, and since then I've been consistently learning and evolving in order to sharpen my problem-solving skills and improve my ability to envision solutions for real-life obstacles.</p>
                 </div>
             </div>
-            
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Frontend Technologies</h3>
-                    <div class="skill-list">
-                        <span class="skill-item">HTML5</span>
-                        <span class="skill-item">CSS3</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">Bootstrap</span>
-                        <span class="skill-item">PyQT</span>
+
+            <section id="education" class="section">
+                <h2>Education</h2>
+                <div class="education-section">
+                    <div class="education-card">
+                        <h3>Bachelor's Degree in Computer Science</h3>
+                        <p>Ovidius University, Constanta - Faculty of Mathematics and Informatics</p>
+                        <p>October 2022 - </p>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Backend Technologies</h3>
-                    <div class="skill-list">
-                        <span class="skill-item">C#</span>
-                        <span class="skill-item">.NET</span>
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">MySQL</span>
-                        <span class="skill-item">SSMS</span>
-                        <span class="skill-item">MariaDB</span>
-                        <span class="skill-item">Java</span>
+            </section>
+
+
+            <section id="skills" class="section">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend Technologies</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">HTML5</span>
+                            <span class="skill-item">CSS3</span>
+                            <span class="skill-item">JavaScript</span>
+                            <span class="skill-item">Bootstrap</span>
+                            <span class="skill-item">PyQT</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend Technologies</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">C#</span>
+                            <span class="skill-item">.NET</span>
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">MySQL</span>
+                            <span class="skill-item">SSMS</span>
+                            <span class="skill-item">MariaDB</span>
+                            <span class="skill-item">Java</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-list">
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">Linux</span>
+                            <span class="skill-item">Raspberry Pi</span>
+                            <span class="skill-item">Unity</span>
+                            <span class="skill-item">GoDot</span>
+                            <span class="skill-item">RestFUL API</span>
+                            <span class="skill-item">LaTeX</span>
+                            <span class="skill-item">C++</span>
+                        </div>
                     </div>
                 </div>
-                <div class="skill-category">
-                    <h3>Tools & Others</h3>
-                    <div class="skill-list">
-                        <span class="skill-item">Git</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">Linux</span>
-                        <span class="skill-item">Raspberry Pi</span>
-                        <span class="skill-item">Unity</span>
-                        <span class="skill-item">GoDot</span>
-                        <span class="skill-item">RestFUL API</span>
-                        <span class="skill-item">LaTeX</span>
-                        <span class="skill-item">C++</span>
-                    </div>
-                </div>
-            </div>
+            </section>
         </section>
 
         <section id="projects" class="section">
@@ -197,7 +212,6 @@
         </section>
     </main>
 
-    <!-- project modals -->
     <div id="project1" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('project1')">&times;</span>
